@@ -4,6 +4,6 @@
 struct agenda{
     char nome[50];
     int cod;
-    int num;
-    Contato* contato;
+    int numContato;
+    Contatos* contatos;
 };
